@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="JWPlayerView">
+        <attr format="string" name="jw_file"/>
+        <attr format="string" name="jw_image"/>
+        <attr format="boolean" name="jw_mute"/>
+        <attr format="boolean" name="jw_autostart"/>
+        <attr format="integer" name="jw_nextUpOffset"/>
+        <attr format="integer" name="jw_nextUpOffsetPercentage"/>
+        <attr format="boolean" name="jw_repeat"/>
+        <attr format="boolean" name="jw_controls"/>
+        <attr format="boolean" name="jw_display_title"/>
+        <attr format="boolean" name="jw_display_description"/>
+        <attr format="string" name="jw_stretching"/>
+        <attr format="boolean" name="jw_nextUpDisplay"/>
+        <attr format="boolean" name="jw_preload"/>
+        <attr format="string" name="jw_captions_color"/>
+        <attr format="integer" name="jw_captions_fontSize"/>
+        <attr format="string" name="jw_captions_fontFamily"/>
+        <attr format="integer" name="jw_captions_fontOpacity"/>
+        <attr format="string" name="jw_captions_backgroundColor"/>
+        <attr format="integer" name="jw_captions_backgroundOpacity"/>
+        <attr format="string" name="jw_captions_edgeStyle"/>
+        <attr format="string" name="jw_captions_windowColor"/>
+        <attr format="integer" name="jw_captions_windowOpacity"/>
+        <attr format="string" name="jw_logo_file"/>
+        <attr format="boolean" name="jw_logo_hide"/>
+        <attr format="string" name="jw_logo_link"/>
+        <attr format="integer" name="jw_logo_margin"/>
+        <attr format="string" name="jw_logo_position"/>
+        <attr format="string" name="jw_skin_name"/>
+        <attr format="string" name="jw_skin_url"/>
+        <attr format="string" name="jw_skin_controlbar_text"/>
+        <attr format="string" name="jw_skin_controlbar_icons"/>
+        <attr format="string" name="jw_skin_controlbar_iconsActive"/>
+        <attr format="string" name="jw_skin_controlbar_background"/>
+        <attr format="string" name="jw_skin_timeslider_progress"/>
+        <attr format="string" name="jw_skin_timeslider_rail"/>
+        <attr format="string" name="jw_skin_menus_text"/>
+        <attr format="string" name="jw_skin_menus_textActive"/>
+        <attr format="string" name="jw_skin_menus_background"/>
+        <attr format="string" name="jw_skin_tooltips_text"/>
+        <attr format="string" name="jw_skin_tooltips_background"/>
+        <attr format="string" name="jw_related_file"/>
+        <attr format="string" name="jw_related_displayMode"/>
+        <attr format="string" name="jw_related_onComplete"/>
+        <attr format="string" name="jw_related_onClick"/>
+        <attr format="string" name="jw_related_autoplayMessage"/>
+        <attr format="integer" name="jw_related_autoplayTimer"/>
+        <attr format="string" name="jw_sharing_link"/>
+        <attr format="string" name="jw_sharing_code"/>
+        <attr format="string" name="jw_sharing_heading"/>
+        <attr format="boolean" name="jw_allow_cross_protocol_redirects"/>
+        <attr format="integer" name="jw_playlist_index"/>
+    </declare-styleable>
+    <string name="invalid_key_edition">Your key edition %1$s is not valid for the attempted action.</string>
+    <string name="jw_error_bad_connection"/>
+    <string name="jw_error_cant_load_player"/>
+    <string name="jw_error_cant_play_video"/>
+    <string name="jw_error_live_stream_down"/>
+    <string name="jw_error_protected_content"/>
+    <string name="jw_error_technical_error"/>
+    <string name="license_contains_expiration">Non-trial license contains an expiration date.</string>
+    <string name="license_edition_not_valid_for_player">License Edition %1$s is not valid for JW Player Android SDK.</string>
+    <string name="license_error">License Error</string>
+    <string name="license_has_expired">License has expired</string>
+</resources>

@@ -1,0 +1,4 @@
+include ':jwplayer-common-3.15.1'
+include ':jwplayer-core-3.15.1'
+include ':app'
+rootProject.name = "vidplayer1"

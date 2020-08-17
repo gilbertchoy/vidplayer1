@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <string name="amazon_sdk_notice" translatable="false">Amazon Fork of JWPlayer SDK can be reached through the following repository: https://mvn.jwplayer.com/content/repositories/amazon/</string>
+    <string name="core_update_fs_error" translatable="false">File system error during core update</string>
+    <string name="eos_console_message" translatable="false">[Oct 30, 2017] Premium &amp; Platinum edition customers please note: the JW Player SDK for iOS &amp; Android will no longer be included or supported in these editions after Oct 31, 2018. Enterprise customers will continue to have access to the JW Player SDKs and will not be impacted. Please contact support+sdk@jwplayer.com if you have additional questions.</string>
+    <string name="file_download_error" translatable="false">Error downloading file</string>
+    <string name="file_download_invalid_http_response" translatable="false">Invalid HTTP response code: %1$d: %2$s</string>
+    <string name="first_run_file_copy_error" translatable="false">Error copying file during initial setup</string>
+    <string name="playad_dai_notice" translatable="false">The playAd() API is not supported during Google IMA DAI playback</string>
+</resources>
