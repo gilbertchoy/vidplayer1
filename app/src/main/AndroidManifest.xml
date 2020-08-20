@@ -12,15 +12,16 @@
         <activity android:name=".MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
 
-            <meta-data
-                android:name="JW_LICENSE_KEY"
-                android:value="yt6zsJH1fESENF7rknIVjmnY1Dx6GHbCpYRZmyjnjyx8oaigi5KcGHaU+uuogNPo" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="JW_LICENSE_KEY"
+            android:value="yt6zsJH1fESENF7rknIVjmnY1Dx6GHbCpYRZmyjnjyx8oaigi5KcGHaU+uuogNPo" />
     </application>
 
 </manifest>
