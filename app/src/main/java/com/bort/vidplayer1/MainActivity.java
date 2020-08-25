@@ -23,29 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
         mPlayerView = findViewById(R.id.jwplayer);
 
-        /*
-        PlaylistItem playlistItem = new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/{MEDIA_ID}.m3u8")
-                .build();
-
-         */
-        /*
-        PlaylistItem playlistItem = new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/{MEDIA_ID}.m3u8")
-                .image("https://www.mydomain.com/poster.jpg")
-                .title("Playlist-Item Title")
-                .description("Some really great content")
-                .build();
-
-*/
-
         PlaylistItem pi = new PlaylistItem.Builder()
                 .file("https://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8")
                 .title("BipBop")
                 .description("A video player testing video.")
                 .build();
-
-
 
         List<PlaylistItem> playlist = new ArrayList<>();
         playlist.add(pi);
