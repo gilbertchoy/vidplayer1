@@ -23,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
         mPlayerView = findViewById(R.id.jwplayer);
 
+
+        /*
+        PlaylistItem playlistItem = new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/{MEDIA_ID}.m3u8")
+                .build();
+                
+         */
+
         PlaylistItem pi = new PlaylistItem.Builder()
                 .file("https://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8")
                 .title("BipBop")
